@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_smig"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign In to Apps"
+        android:textStyle="italic|bold"
+        android:textColor="@color/dark_one"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/dark_one"
+            android:id="@+id/txt_username"
+            android:hint="\u00A0Username">
+            <requestFocus/>
+        </EditText>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/txt_passwd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hitam"
+            android:textColorHint="@color/dark_one"
+            android:hint="\u00A0Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:textSize="16dp"
+            android:textColor="@color/hitam"
+            android:background="@color/cement_dark"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_one"
+        android:text="Equipment Plant Inspection Apps"
+        android:textAlignment="center"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PT Semen Indonesia, tbk"
+        android:textColor="@color/dark_one"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/welcome" />
+
+</LinearLayout>

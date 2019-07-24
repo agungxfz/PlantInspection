@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/home"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_back_rm41"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="344 HS01"
+                android:textAlignment="center"
+                android:textColor="@color/hitam" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grinding Pressure, bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_grindpress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pressure Roll #1 (N11), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_pressroll11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:foregroundGravity="right"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pressure Roll #1 (N21), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_pressroll12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pressure Roll #2 (N12), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_pressroll21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pressure Roll #2 (N22), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_pressroll22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pressure Roll #3 (N13), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_pressroll31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pressure Roll #3 (N23), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_pressroll32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Return Pressure (N01), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_retpress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Before Filter Pressure, bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_beffilpress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Differential Pressure, bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_diffpress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil tank temperatur (N02), ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oiltanktemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil level"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oillevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Range 96-144"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Data" />
+    </LinearLayout>
+</ScrollView>

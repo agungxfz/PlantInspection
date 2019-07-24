@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/home"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_back_rm43"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="344CL02 - GEARBOX LUBRICATION"
+                android:textAlignment="center"
+                android:textColor="@color/hitam" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Supply pressure (N08), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_suppress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 130"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil temperature supply (N02), ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oiltempsup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 47"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil temperature return (N05), ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oiltempret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 60"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil temperature thrust pad (N03), ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oiltempthr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 75"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil tank temperature (N01), ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oiltanktemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 70"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil Pressure Thrust Pads, ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oilpressthr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 70"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N15), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N16), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N17), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N18), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N19), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N20), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N21), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="low 24"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N22), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 145"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N23), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N24), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N25), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N26), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N27), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N28), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u00A0\u00A0\u00A0\u00A0\u00A0(N29), bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_n15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vibration (N40), mm/s"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_vib1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 2,5"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vibration (N41), mm/s"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_vib2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="max 2,5"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil level"
+                android:textColor="@color/hitam"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/insp_dt_oillevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/cement_dark" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Data" />
+    </LinearLayout>
+</ScrollView>

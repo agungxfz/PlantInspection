@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_back_kl42"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="444CL02 - ID FAN #2 LUBRICATION"
+                android:textAlignment="center"
+                android:textColor="@color/hitam" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pump in operation"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_pumpops_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. A/B"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_pumpops_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. A/B"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_pumpops_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. A/B"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discharge pressure pump A/B, bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_dispress_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. 4-6"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_dispress_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. 4-6"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_dispress_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. 4-6"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lubrication working pressure, bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_lubric_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. 2-3"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_lubric_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. 2-3"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_lubric_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. 2-3"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil tank temperature, ⁰C"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_oiltanktemp_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. 40-60"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_oiltanktemp_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. 40-60"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_oiltanktemp_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. 40-60"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oil Tank Level, %"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_oiltanklvl_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. 60-90"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_oiltanklvl_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. 60-90"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_oiltanklvl_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. 60-90"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filter in service"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_filserv_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. A/B"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_filserv_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. A/B"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_filserv_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. A/B"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CWS before filter press., bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_cwsbeffil_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. 5,5-6,5"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_cwsbeffil_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. 5,5-6,5"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_cwsbeffil_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. 5,5-6,5"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CWS after filter press., bar"
+                android:textColor="@color/hitam"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/insp_dt_cwsaftfil_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="I. 5-6,5"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_cwsaftfil_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="II. 5-6,5"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+
+                <EditText
+                    android:id="@+id/insp_dt_cwsaftfil_3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="III. 5-6,5"
+                    android:textColor="@color/hitam"
+                    android:textColorHint="@color/cement_dark" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Data" />
+
+    </LinearLayout>
+</ScrollView>
